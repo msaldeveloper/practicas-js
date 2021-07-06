@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+</head>
+<body>
+    <header><h1>
+        Porcentajes y Descuentos
+    </h1></header>
+    <section>
+        <h2>Calcula el precio de tus productos a pagar con descuentos</h2>
+        <label for="InputPrice">
+            Escribe el precio de tu Producto <b>$</b>
+            <input id="InputPrice" type="number">
+        </label>
+        <hr/>
+        <label for="InputDiscount">
+            Escribe el porcentaje del Descuento <b>%</b>
+            <input id="InputDiscount" type="number">
+        </label>
+        <hr/>
+        <button type="button" onclick="Discount()">
+            Calcular precio con descuento
+        </button>
+        <hr/>
+        <button type="button" onclick="Discount20()">
+            Cupon 20% descuento
+        </button>
+        <hr/>
+        <button type="button" onclick="Discount30()">
+            Cupon 30% descuento
+        </button>
+        <hr/>
+        <button type="button" onclick="Discount40()">
+            Cupon 40% descuento
+        </button>
+        <hr/>
+        <button type="button" onclick="Discount50()">
+            Cupon 50% descuento
+        </button>
+        <p id="ResultPrice"></p>
+        Introduce el precio y da click sobre el descuento que quieres recibir 
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
