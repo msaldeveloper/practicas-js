@@ -13,3 +13,9 @@
 - Implementar las formulas en JavaScript
 - crear funciones
 - integrar js con html
+
+## Taller 3 Promedio, Mediana y Moda
+- Definir las formulas 
+- Implementar las formulas en JavaScript
+- crear funciones
+- integrar js con html
